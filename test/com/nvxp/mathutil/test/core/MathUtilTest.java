@@ -41,6 +41,7 @@ public class MathUtilTest {
          Assert.assertEquals(6, MathUtil.getFactorial(3)); //Muốn 1 giai thừa = 1
          Assert.assertEquals(24, MathUtil.getFactorial(4)); //Muốn 1 giai thừa = 1
          Assert.assertEquals(120, MathUtil.getFactorial(5)); //Muốn 1 giai thừa = 1
+         Assert.assertEquals(120, MathUtil.getFactorial(6)); //Muốn 1 giai thừa = 1
             
     }
     
