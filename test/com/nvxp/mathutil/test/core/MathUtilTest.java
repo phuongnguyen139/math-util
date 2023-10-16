@@ -37,11 +37,11 @@ public class MathUtilTest {
          
          //GỘP THÊM VÀI CASE THÀNH CÔNG/ĐẦU VÀO NGON
          Assert.assertEquals(1, MathUtil.getFactorial(1)); //Muốn 1 giai thừa = 1
-         Assert.assertEquals(2, MathUtil.getFactorial(2)); //Muốn 1 giai thừa = 1
-         Assert.assertEquals(6, MathUtil.getFactorial(3)); //Muốn 1 giai thừa = 1
-         Assert.assertEquals(24, MathUtil.getFactorial(4)); //Muốn 1 giai thừa = 1
-         Assert.assertEquals(120, MathUtil.getFactorial(5)); //Muốn 1 giai thừa = 1
-         Assert.assertEquals(120, MathUtil.getFactorial(6)); //Muốn 1 giai thừa = 1
+         Assert.assertEquals(2, MathUtil.getFactorial(2)); 
+         Assert.assertEquals(6, MathUtil.getFactorial(3)); 
+         Assert.assertEquals(24, MathUtil.getFactorial(4)); 
+         Assert.assertEquals(120, MathUtil.getFactorial(5)); 
+         Assert.assertEquals(720, MathUtil.getFactorial(6)); 
             
     }
     
